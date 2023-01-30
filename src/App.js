@@ -75,14 +75,13 @@ function App() {
 <p>█▄▄▄▄▄▄███══════</p>
 
 
-</div>
 
     {
      flag?
 
             <div className='form-username'>
                <form onSubmit={setflagfun}>
-               <span>Enter your name > 
+               <span>Enter your name 
                 <input
                     type="text"
                     // placeholder='msg'
@@ -96,7 +95,7 @@ function App() {
                       flag2?<div></div>:
                       <div>
                         <form onSubmit={setUser}>
-                          <span>Enter security code >
+                          <span>Enter security code 
                             <input
                                 type="password"
                                 // placeholder='msg'
@@ -111,7 +110,7 @@ function App() {
 
             </div>
             :  
-        <div>
+          <div>
          
             <p className='cmd-msg'>*/wait for others/* --do not reload or exit--</p>
             
@@ -136,10 +135,11 @@ function App() {
 
             </form>
             
-        </div>
+          </div>
+        
     }
   </div>
-  
 }
+
 
 export default App;
